@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: online-learning-backend
+    env: java
+    rootDir: Online-Learning-Backend
+    buildCommand: ./mvnw clean package
+    startCommand: java -jar target/*.jar
